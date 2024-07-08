@@ -1,8 +1,12 @@
-# React + Vite
+# Popular Divar Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a test example of an intermediary site that I have created as the “frontend” of this site
 
-Currently, two official plugins are available:
+*To test, move the backend folder to a higher level and then install the packages with the “npm i” command.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Then run the server using “npm start” command
+
+*The backend uses Swagger   -?  http://localhost:3000/swagger
+
+
+
