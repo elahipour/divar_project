@@ -1,0 +1,122 @@
+.citySelectionBoxWrapper {
+  background-color: rgba(133, 133, 133, 0.535);
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+}
+.citySelectionBox {
+  position: absolute;
+  width: 500px;
+  left: calc(50% - 250px);
+  top: calc(50% - 325px);
+  height: 650px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+}
+.citylist_check {
+  width: 20px;
+  height: 20px;
+}
+.citySelectionBox > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.citySelectionBox > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.citySelectionBox > div:last-child > button {
+  flex: 1;
+  padding: 9px;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.citySelectionBox > div:last-child > button:hover {
+  color: #333;
+}
+.citySelectionBox > div:nth-child(2){
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.citySelectionBox > div:nth-child(2)>span{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(194, 0, 0);
+  border: 1px solid rgb(194, 0, 0);
+  width: fit-content;
+  border-radius: 18px;
+  padding: 5px 8px;
+}
+.searchBox {
+  position: relative;
+}
+.searchBox > i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.searchBox > [type="text"] {
+  border: 1px solid rgba(133, 133, 133, 0.535);
+  border-radius: 7px;
+  padding: 8px 30px 8px 8px;
+  outline: none;
+
+  width: 100%;
+}
+.provinceAndCityList {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.provinceAndCityList>div p,label p {
+  padding: 20px 10px;
+  border-bottom: 1px solid rgba(181, 181, 181, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.citiesList {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.citiesList>label > p {
+  padding: 20px 10px;
+  border-bottom: 1px solid rgba(181, 181, 181, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+.backToProvinceList {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}

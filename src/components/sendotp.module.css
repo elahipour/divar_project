@@ -1,0 +1,139 @@
+
+.formContainer{
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(133,133,133);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 690px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.inputs>button{
+    padding: 10px 25px;
+border: none;
+border-radius: 2px;
+}
+.formBody>input[type='text']{
+    border: 1px solid rgba(199, 199, 199, 0.9);
+    padding: 6px 20px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    outline-color: #d4543dd0;
+    font-family: vazir;
+}
+.formHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 30px;
+    box-shadow: 0 1px 1px 1px rgba(230, 230, 230,.5);
+}
+.formBody{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.formBody>p{
+    font-size: .9rem;
+    color: rgba(147, 147, 147, 0.9);
+    padding: 2px 0;
+}
+.formBody>p>a{
+color: #c61e00;
+font-weight: bold;
+}
+.formBody>h4{
+    padding:30px 0;
+}
+.formFooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px;
+box-shadow: 0 -1px 1px 1px rgba(230, 230, 230,.5);
+margin-top: 25px;
+
+}
+.formFooter>button{
+    padding: 10px 25px;
+border: none;
+border-radius: 5px;
+width: 100px;
+text-align: center;
+background: #c61e00;
+font-family: vazir;
+color: #fff;
+font-size: 1rem;
+}
+.formHeader>span{
+    font-size: 1.9rem;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: background .3s ease;
+    color: #a8a8a8;
+}
+.formHeader>span:hover{
+   background: #f3f3f3;
+}
+
+.formFooterButton_checkotp{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.formFooterButton_checkotp>button:first-child{
+    transition:background .6s ease;
+    border: 1px solid #c61e00;
+    background: #fff;
+    color: #c61e00;
+}
+.formFooterButton_checkotp>button:first-child:hover{
+    background: #f9f7f7;
+}
+.formFooterButton_checkotp>button:last-child{
+width:100px;
+
+}
+.formFooterButton_checkotp>button{
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    background: #c61e00;
+    font-family: vazir;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.formFooterButton_checkotp>span{
+    font-size: .9rem;
+    color: #a8a8a8;
+}
+.changeMobileNumber{
+    float: left;
+    background: #f9f7f7;
+    color: #aaaaaa !important;
+    padding: 3px 5px;
+    border-radius: 15px;
+    font-size: .8rem;
+    font-weight: 100 !important;
+}

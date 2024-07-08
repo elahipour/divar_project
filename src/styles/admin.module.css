@@ -1,0 +1,64 @@
+.category{
+    padding: 0 25px;
+}
+.category>form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.category>form>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.category>form>div>label{
+    font-size: 1.1rem;
+    font-weight: bold;
+    user-select: none;
+}
+.category>form>div>input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.category>form>h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(166,38,38);
+    width: fit-content;
+    padding-bottom: 10px;
+}
+.category>form>button{
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    background: #c61e00;
+    font-family: vazir;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.category>form>button:disabled{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.setCategorySuccess{
+    width: fit-content;
+    padding: 7px 14px;
+    background: rgb(19, 131, 65);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+}
+.setCategoryFailed{
+    width: fit-content;
+    padding: 7px 14px;
+    background: red;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+}

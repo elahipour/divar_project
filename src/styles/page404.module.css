@@ -1,0 +1,16 @@
+.page404Container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.page404Container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  color: rgb(120, 120, 120);
+}
+.page404Container > div > img {
+  width: 250px;
+}

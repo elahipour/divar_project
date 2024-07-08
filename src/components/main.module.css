@@ -1,0 +1,29 @@
+.main{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-top: 13px;
+}
+.main>div>img{
+    width: 140px;
+    border-radius: 7px;
+}
+.main>div{
+    width: fit-content;
+    max-height: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 15px;
+    background:rgb(235, 235, 235);
+    border-radius: 7px;
+}
+.main>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 160px;
+}

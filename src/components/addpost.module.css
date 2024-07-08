@@ -1,0 +1,25 @@
+#addpost_form{
+    margin: auto;
+    padding: 10px 18px;
+}
+#addpost_form>input,textarea,select{
+    border-radius: 7px;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid rgba(199, 199, 199, 0.9);
+    
+}
+#addpost_form>textarea{
+    max-width: 455px;
+    min-width: 455px;
+height: 100px;
+}
+#addpost_form>button{
+border:none;
+padding: 12px;
+border-radius: 7px;
+font-weight: bold;
+font-size: 1rem;
+background: rgb(166,38,38);
+color: white;
+}

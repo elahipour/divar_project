@@ -1,0 +1,59 @@
+
+header{
+    display: flex;
+    justify-content: center;
+}
+.ad_register{
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    background: #c61e00;
+    font-family: vazir;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.topmenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    box-shadow: 0 1px 3px 1px rgba(214, 214, 214, 0.7);
+    width: 100%;
+}
+.topmenu_leftsection{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.topmenu_leftsection>li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+}
+.topmenu_leftsection>li:first-child{
+position: relative;
+
+}
+.topmenu_leftsection>li:first-child>span{
+    color: #7d7d7d;
+    font-weight: bold;
+    text-decoration: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+.topmenu_rightsection{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.topmenu_rightsection>li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

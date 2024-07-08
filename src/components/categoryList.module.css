@@ -1,0 +1,25 @@
+.categoryList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+.categoryList>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.categoryList>div>div{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.categoryList>div>div>span{
+
+    cursor: pointer;
+}
+.categoryList>div:hover{
+    background-color: #ffdfdf91;
+}

@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 1px 3px 1px rgba(214, 214, 214, 0.7);
+    width: 100%;
+    
+}
+.footer>p>span{
+    color: red;
+    font-size: 1.1rem;
+    animation: hBeat 3s ease infinite;
+}
+@keyframes hBeat {
+    0%{
+        font-weight: 100;
+    }
+    15%{
+        font-weight: bolder;
+    }
+    75%{
+        font-weight: 100;
+    }   
+    100%{
+        font-weight: bolder;
+    }
+}

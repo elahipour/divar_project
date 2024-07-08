@@ -1,0 +1,16 @@
+.loader {
+  width: 40px;
+  height: 40px;
+  border-width: 10px;
+  border-color: wheat;
+  border-top-color: rgb(255, 111, 111);
+  border-style: solid;
+  border-radius: 50%;
+  animation: loader .3s infinite linear;
+  margin: auto;
+}
+@keyframes loader{
+    100%{
+        transform: rotate(360deg);
+    }
+}

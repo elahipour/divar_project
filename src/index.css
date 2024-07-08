@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+:root {
+  font-family: vazir, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.wrapper {
+  max-width:1400px;
+  min-height: 100vh;
+  margin: auto;
+} 
+a {
+  color: rgb(166,38,38);
+  font-weight: bold;
+  text-decoration: inherit;
+}
+a,
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+input,textarea{
+  font-family: inherit;
+}
